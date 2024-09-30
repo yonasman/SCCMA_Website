@@ -1,7 +1,7 @@
 import styles from './Footer.module.css'
 import logo from '../../../src/assets/images/sccma-logo.png'
 import FacebookIcon from '@mui/icons-material/Facebook';
-// import TwitterIcon from '@mui/icons-material/Twitter';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -16,31 +16,32 @@ function Footer() {
                 <img className={styles.logo} src={logo} alt='sccma logo' />
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem dolore deserunt totam hic ut! Dolorem ratione placeat.</p>
             </div>
-            <div>
-                <p>Discover</p>
+            <div className={styles.links}>
+                <h3>Discover</h3>
                 <ul>
-                    <li>About Us</li>
-                    <li>Services or Programs</li>
-                    <li>Volunteer</li>
-                    <li>Donate</li>
+                    <a href=""><li>About Us</li></a>
+                    <a href=""><li>Services or Programs</li></a>
+                    <a href=""><li>Volunteer</li></a>
+                    <a href=""><li>Donate</li></a>
                 </ul>
             </div>
-            <div>
-                <p>Help</p>
+            <div className={styles.links}>
+                <h3>Help</h3>
                     <ul>
-                        <li>FAQ</li>
-                        <li>Terms and conditions</li>
-                        <li>Privacy</li>
+                        <a href=""><li>FAQ</li></a>
+                        <a href=""><li>Terms and conditions</li></a>
+                        <a href=""><li>Privacy</li></a>
                     </ul>
             </div>
         </div>
         <div className={styles.footer_links_container}>
             {/* footer links */}
             <div className={styles.links_container}>
-                    <a href=""><FacebookIcon/></a>
-                    <a href=""><InstagramIcon/></a>
-                    <a href=""><LinkedInIcon/></a>
-                    <a href=""><TelegramIcon/></a>
+                    <a href="https://www.facebook.com/share/tbdNwbG2ncPgQSWf/?mibextid=qi2Omg"><FacebookIcon/></a>
+                    <a href="https://www.instagram.com/sccma_04?igsh=MWt0anZlZDYwMWxqZQ=="><InstagramIcon/></a>
+                    <a href="https://www.linkedin.com/company/sara-cannizzaro-child-minders-association/"><LinkedInIcon/></a>
+                    <a href="https://t.me/saracenter1"><TelegramIcon/></a>
+                    <a href="https://x.com/sccma04?t=lo1O0j3m5QKNtqTX88IjPg&s=09"><TwitterIcon/></a>
             </div>
             <div className={styles.search_bar}>
                 {/* search bar */}

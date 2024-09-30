@@ -27,6 +27,7 @@ body {
     background-color: rgba(0, 0, 0, 0.965);
     transform: translateX(-100%); /* Start hidden off-screen */
     transition: transform 0.3s ease;
+    padding-left: 20px;
 }
 /* When the menu is open */
 .side_menu.open {
