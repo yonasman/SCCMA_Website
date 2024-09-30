@@ -8,7 +8,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
-    // function to handle menu opening
+    // function to toggle side menu
     const handleMenu = () => {
         setMenuOpen(!menuOpen);
     }
