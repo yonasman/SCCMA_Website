@@ -1,0 +1,47 @@
+.carousel_container {
+    height: 100vh;
+    position: relative;
+}
+.carousel_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_item img {
+    height: 475px;
+    width: 100%;
+    object-fit: cover; 
+}
+/* carousel.module.css */
+.dot {
+    width: 10px;            
+    height: 10px;          
+    background-color: rgb(167, 231, 252); 
+    border-radius: 50%;     
+    display: inline-block;   
+    margin-left: 15px;       
+    cursor: pointer;         
+    transition: background-color 0.3s;
+}
+
+.dot.selected {
+    background-color: rgb(0, 149, 255);   
+}
+
+.dot:hover {
+    background-color: rgba(255, 0, 0, 0.8); 
+}
+/* carousel text styles */
+.welcome_text {
+    color: rgb(15, 164, 151);
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    font-size: 20px;
+    width: 50vw;
+    text-align: center;
+    background: linear-gradient(to right,#343af0 , #09c3c3);
+    background-clip: text;
+    color: transparent;
+}

@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
     // function to toggle side menu
     const handleMenu = () => {
         setMenuOpen(!menuOpen);
@@ -24,9 +25,19 @@ function Header() {
             window.removeEventListener('resize', handleResize)
         }
     },[menuOpen])
+    // function to change color on scroll
+    const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+    }
+    useEffect(()=> {
+       window.addEventListener('scroll',handleScroll)
+       return () => {
+        window.removeEventListener('scroll', handleScroll)
+       }
+    },[])
     return (
         <>
-          <div className={styles.nav_container}>
+          <div className={`${styles.nav_container} ${isScrolled ? styles.scrolled : ''}`}>
             <div className={styles.logo_wrapper}>
                 <img className={styles.logo} src={logo} alt="sccma logo" />
             </div>

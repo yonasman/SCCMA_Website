@@ -1,7 +1,15 @@
+import MyCarousel from "../Components/Carousel/MyCarousel"
+
 function Home() {
   return (
     <>
-      <h1>Home Page</h1>
+      <MyCarousel/>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
     </>
   )
 }

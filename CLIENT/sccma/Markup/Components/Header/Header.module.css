@@ -9,11 +9,18 @@ body {
 }
 .nav_container {
     display: flex;
-    background-color: rgba(0, 13, 44, 0.93);
+    /* background-color: rgba(0, 13, 44, 0.765); */
+    background-color: rgb(0, 0, 0);
     justify-content: space-around;
     align-items: center;
     height: 70px;
     position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+.nav_container.scrolled {
+    background-color: rgba(0, 0, 0, 0.689);
 }
 .hamburger_menu {
     cursor: pointer;
@@ -102,5 +109,8 @@ body {
         align-items: center;
         width: 38vw;
         cursor: pointer;
+    }
+    .nav_items ul li:hover {
+        color: #fff;
     }
 }
