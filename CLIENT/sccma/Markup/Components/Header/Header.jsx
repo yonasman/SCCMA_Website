@@ -4,7 +4,7 @@ import styles from "./Header.module.css"
 import MenuIcon from '@mui/icons-material/Menu';
 import { HomeOutlined as HomeIcon, InfoOutlined as InfoIcon, NewspaperOutlined as NewsIcon, MailOutline as ContactIcon  } from '@mui/icons-material';
 import CloseIcon from '@mui/icons-material/Close';
-
+import { Link } from "react-router-dom";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -35,22 +35,22 @@ function Header() {
             </div>
             <div className={`${styles.side_menu} ${menuOpen ? styles.open : ''}`}>
                 <ul>
-                    <li><HomeIcon fontSize="small"/>Home</li>
-                    <li><InfoIcon fontSize="small"/>About Us</li>
-                    <li><NewsIcon fontSize="small"/>News</li>
-                    <li><ContactIcon fontSize="small"/>Contact Us</li>
+                    <Link to="/"><li><HomeIcon fontSize="small"/>Home</li></Link>
+                    <Link to="/about"><li><InfoIcon fontSize="small"/>About Us</li></Link>
+                    <Link to="/news"><li><NewsIcon fontSize="small"/>News</li></Link>
+                    <Link to="/contact"><li><ContactIcon fontSize="small"/>Contact Us</li></Link>
                 </ul>
             </div>
             {/* desktop navigation */}
             <div className={styles.nav_items}>
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>News</li>
-                    <li>Contact Us</li>
+                    <Link to='/'><li>Home</li></Link>
+                    <Link to='/about'><li>About Us</li></Link>
+                    <Link to='/news'><li>News</li></Link>
+                    <Link to='/contact'><li>Contact Us</li></Link>
                 </ul>
             </div>
-            <button  className={styles.nav_btn}>Donate</button>
+            <Link  className={styles.nav_btn} to='/donate'>Donate</Link>
           </div>
         </>
     )

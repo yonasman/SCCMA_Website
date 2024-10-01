@@ -17,7 +17,7 @@ function Footer() {
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem dolore deserunt totam hic ut! Dolorem ratione placeat.</p>
             </div>
             <div className={styles.links}>
-                <h3>Discover</h3>
+                <h4>Discover</h4>
                 <ul>
                     <a href=""><li>About Us</li></a>
                     <a href=""><li>Services or Programs</li></a>
@@ -26,7 +26,7 @@ function Footer() {
                 </ul>
             </div>
             <div className={styles.links}>
-                <h3>Help</h3>
+                <h4>Help</h4>
                     <ul>
                         <a href=""><li>FAQ</li></a>
                         <a href=""><li>Terms and conditions</li></a>
