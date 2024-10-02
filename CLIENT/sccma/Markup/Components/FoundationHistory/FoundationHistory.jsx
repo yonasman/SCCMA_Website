@@ -8,7 +8,7 @@ function FoundationHistory() {
       const handleScroll = () => {
         const scrollPosition = window.scrollY;
         const elementPosition = document.querySelector(`.${styles.foundation_container}`).offsetTop;
-        if (scrollPosition > elementPosition - 280) {
+        if (scrollPosition > elementPosition - 450) {
           setIsScrolled(true); // Element has been scrolled into view
         } else {
           setIsScrolled(false)

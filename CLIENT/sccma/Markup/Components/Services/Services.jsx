@@ -5,27 +5,23 @@ import image2 from '../../../src/assets/images/featured_cause_1.jpg'
 import image3 from '../../../src/assets/images/event1.jpg'
 import image4 from '../../../src/assets/images/sara-job.jpg'
 import { useEffect, useState } from 'react'
+import debounce from 'lodash.debounce'
 function Services() {
     // state for controlling scroll
     const [isScrolled, setIsScrolled] = useState(false);
     // control  behavior on scroll
     useEffect(() => {
-        // method to handle scroll
-        const handleScroll = () => {
+        const handleScroll = debounce(() => {
             const scrollPosition = window.scrollY;
             const elementPosition = document.querySelector(`.${styles.services_container}`).offsetTop;
-            if(scrollPosition > elementPosition - 320) {
-                setIsScrolled(true);
-            } else {
-                setIsScrolled(false);
-            }
-        }
+            setIsScrolled(scrollPosition > elementPosition - 450);
+        }, 100); // Adjust the delay as needed
         window.addEventListener('scroll', handleScroll)
         // Cleanup listener on component unmount
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    })
+    },[])
     const services = [{
         image:image1,
         title :'Education',
