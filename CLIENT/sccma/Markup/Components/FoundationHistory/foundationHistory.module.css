@@ -1,5 +1,4 @@
 .foundation_container {
-    /* background: linear-gradient(to bottom, #1678b0, #6C3895 ); */
     background: linear-gradient(to bottom, #2c9cdd, #6C3895 );
     margin-top: 100px;
     padding: 20px;
@@ -26,7 +25,7 @@
         padding: 70px;
         margin-top: 30px;
         display: flex;
-        background: linear-gradient(to right, #1f84bf, #6C3895 );
+        background: linear-gradient(to right, #42b4f6, #6C3895 );
         justify-content: space-between;
         align-items: center;
         height: 65vh;
