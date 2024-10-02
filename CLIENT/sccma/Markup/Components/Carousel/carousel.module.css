@@ -9,11 +9,11 @@
 }
 
 .carousel_item img {
-    height: 475px;
+    height: 270px;
     width: 100%;
     object-fit: cover; 
 }
-/* carousel.module.css */
+/* bottom buttons*/
 .dot {
     width: 10px;            
     height: 10px;          
@@ -30,18 +30,51 @@
 }
 
 .dot:hover {
-    background-color: rgba(255, 0, 0, 0.8); 
+    background-color: rgb(0, 149, 255); 
 }
-/* carousel text styles */
 .welcome_text {
     color: rgb(15, 164, 151);
     position: absolute;
-    top: 110px;
-    left: 50px;
-    font-size: 20px;
-    width: 50vw;
+    top: 70px;
+    left: 16px;
+    font-size: 11px;
+    width: 90vw;
     text-align: center;
-    background: linear-gradient(to right,#343af0 , #09c3c3);
+    background: linear-gradient(to right,#003050 , #4a98f9);
     background-clip: text;
     color: transparent;
+}
+.sccma_description {
+    display: none;
+}
+@media screen and (min-width:768px) {
+.carousel_container {
+    overflow: hidden;
+}
+.carousel_item img {
+    height: 475px;
+}
+/* carousel text styles */
+.welcome_text {
+    top: 110px;
+    left: 65px;
+    font-size: 18px;
+    width: 51vw;
+}
+.sccma_description {
+    position: absolute;
+    top: 230px;
+    left: 72px;
+    background-color: #000000a5;
+    color: #ece9e9;
+    width: 545px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.sccma_description p {
+    padding: 34px;
+}
 }

@@ -42,6 +42,7 @@
     justify-content: center;
     border-radius: 50%;
     background-color: #005190;
+    
 }
 .links_container a:hover {
     background-color: rgb(255, 52, 7);
@@ -70,6 +71,9 @@
 } 
 .top_footer_wrapper ul a li:hover {
     text-decoration: underline;
+}
+.links a li {
+    font-size: 12px;
 }
 /*desktop display */
 @media screen and (min-width:768px) {

@@ -9,7 +9,6 @@ body {
 }
 .nav_container {
     display: flex;
-    /* background-color: rgba(0, 13, 44, 0.765); */
     background-color: rgb(0, 0, 0);
     justify-content: space-around;
     align-items: center;
@@ -27,14 +26,15 @@ body {
 }
 .side_menu {
     position: fixed;
-    left: 0;
-    top: 70px;
     width: 50vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.965);
+    background-color: rgba(0, 0, 0, 0.746);
     transform: translateX(-100%); /* Start hidden off-screen */
     transition: transform 0.3s ease;
     padding-left: 20px;
+    bottom: 0;
+    left: 0;
+    top: 70px;
+    z-index: 1000;
 }
 /* When the menu is open */
 .side_menu.open {
@@ -60,10 +60,10 @@ body {
     margin-right: 10px; /* Space between icon and text */
     color: rgb(212, 208, 208);
 }
-
-/* .nav_items ul li {
+.side_menu a {
     text-decoration: none;
-} */
+    color: rgb(213, 211, 211);
+}
 .nav_items ul a {
     text-decoration: none;
     color: rgb(213, 211, 211);
@@ -86,7 +86,7 @@ body {
         display: flex;
     }
     .nav_btn {
-        background-color: #ff5c0b;
+        background-color: #ff7a38;
         border: none;
         height: 30px;
         width: 100px;
@@ -101,6 +101,7 @@ body {
     .nav_btn:hover {
         background-color: #ffffff;
         outline: #ff750b 1.85px solid;
+        transition: all 0.1s ease;
     }
     .nav_items ul{
         display: flex;

@@ -43,7 +43,7 @@ const MyCarousel = () => {
                 ))}
             </Carousel>
             <div className={styles.welcome_text}>
-                <h1>Welcome to Sara’s Center for Children and Mothers Aid (SCCMA)</h1>
+                <h1>Welcome to Sara Cannizzaro Child Minders Association(SCCMA)</h1>
             </div>
             <div className={styles.sccma_description}>
                 <p>Founded in 2004 in Addis Ababa, SCCMA is dedicated to uplifting vulnerable families through education, vocational training, healthcare, and emotional support.</p>
