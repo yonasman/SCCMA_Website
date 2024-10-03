@@ -1,0 +1,101 @@
+.causeCard_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #001e49;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+    background-color: #dfdfdf;
+    height: 50%;
+    box-shadow: 0px 0px 5px 2.5px rgba(192, 190, 190, 0.31);
+    border-radius: 3px;
+}
+.causeCard_container::after{
+    content: ''; 
+    display: block; 
+    width: 70%; 
+    height: 0.3px; 
+    background-color: rgb(148, 181, 207); 
+    position: absolute; 
+    left: 15%;
+    margin-top: 290px;
+}
+.causeCard_container:last-child::after {
+    display: none;
+}
+.causeCard_container img {
+    width: 100%;
+}
+
+.causeCard_container h3 {
+    font-size: 14px;
+    padding: 4px;
+    padding-top: 10px;
+}
+
+.causeCard_container p {
+    font-size: 13px;
+    padding: 4px;
+}
+
+.readMore_container {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+.readMore_container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: #001e49;
+    font-weight: 510;
+}
+.readMore_container svg {
+    font-size: 15px;
+    color: #00327e ;
+    margin-left: 5px;
+}
+@media (min-width:768px) {
+    .causeCard_container {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        background-color: #ECECEC;
+        height: 170px;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .causeCard_container::after{
+        content: ''; 
+        display: block; 
+        width: 38%; 
+        height: 0.3px; 
+        background-color: rgb(148, 181, 207); 
+        position: absolute; 
+        left: 8%;
+        margin-top: 220px;
+    }
+    .causeCard_container img {
+        width: 200px;
+        height: 100%;
+        margin: 0;
+    }
+    .causeCard_container p {
+        font-size: 12px;
+        
+    }
+    .causeCard_container h3 {
+        font-size: 20px
+    }
+    .causeCard_text_container {
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 48px;
+    }
+
+}

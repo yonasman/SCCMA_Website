@@ -4,24 +4,7 @@ import image1 from '../../../src/assets/images/bg2.jpg'
 import image2 from '../../../src/assets/images/featured_cause_1.jpg'
 import image3 from '../../../src/assets/images/event1.jpg'
 import image4 from '../../../src/assets/images/sara-job.jpg'
-import { useEffect, useState } from 'react'
-import debounce from 'lodash.debounce'
 function Services() {
-    // state for controlling scroll
-    const [isScrolled, setIsScrolled] = useState(false);
-    // control  behavior on scroll
-    useEffect(() => {
-        const handleScroll = debounce(() => {
-            const scrollPosition = window.scrollY;
-            const elementPosition = document.querySelector(`.${styles.services_container}`).offsetTop;
-            setIsScrolled(scrollPosition > elementPosition - 450);
-        }, 100); // Adjust the delay as needed
-        window.addEventListener('scroll', handleScroll)
-        // Cleanup listener on component unmount
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    },[])
     const services = [{
         image:image1,
         title :'Education',
@@ -53,7 +36,7 @@ function Services() {
 ]
   return (
     <>
-        <div className={`${styles.services_container} ${isScrolled? styles.visible : ''}`}>
+        <div className={styles.services_container}>
             <h1>SCCMA Services</h1>
             <div className={styles.service_card_container}>
                 {services.map((service,i) =>(

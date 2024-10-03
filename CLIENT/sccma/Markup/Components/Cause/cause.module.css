@@ -1,0 +1,62 @@
+.cause_container {
+    color: #ffffff;
+    margin: 15px 0;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    padding-bottom: 15px;
+}
+.cause_container .left_container h2 {
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+    padding-top: 20px;
+}
+.cause_container .left_container h2::after, .cause_container .right_container h2::after {
+    content: ''; 
+    display: block; 
+    width: 75%; 
+    height: 0.3px; 
+    background-color: rgb(150, 201, 242); 
+    position: absolute; 
+    left: 12%;
+    margin-top: 12px;
+}
+.card_container {
+    margin: 0 auto;
+}
+.right_container h2{
+    text-align: center;
+    margin: 30px 0;
+}
+.featured_card_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.donate_btn {
+    background-color: #ff5900;
+    border: none;
+    display: block;
+    height: 30px;
+    width: 130px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin: 20px auto;
+    margin-top: 34px;
+    
+}
+
+@media (min-width : 768px) {
+    .cause_container {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* .featured_card_container {
+        width: 300px;
+        background-color: #fff;
+    } */
+}
