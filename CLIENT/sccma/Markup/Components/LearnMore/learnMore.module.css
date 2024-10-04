@@ -22,7 +22,7 @@
 @media (min-width:768px) {
     .learnMore_container {
         width: 93%;
-        margin: 20px auto;
+        margin: 70px auto;
     }
     .learnMore_container h2 {
         color: #000;
@@ -40,6 +40,10 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 83px;
+    }
+    .learnMore_video_container .left_video_wrapper {
+        width: 42%;
+        height: 170px
     }
     
 }

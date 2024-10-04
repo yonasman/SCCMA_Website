@@ -5,6 +5,7 @@ import Justification from "../Components/Justification/Justification"
 import LearnMore from "../Components/LearnMore/LearnMore"
 import RotatingCards from "../Components/RotatingCards/RotatingCards"
 import Services from "../Components/Services/Services"
+import Map from '../../Markup/Components/Map/Map'
 function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ function Home() {
       <Cause/>
       <RotatingCards/>
       <LearnMore/>
+      <Map/>
     </>
   )
 }

@@ -2,7 +2,7 @@
     width: 100%;
     overflow: hidden; 
     white-space: nowrap; 
-    margin: 50px 0;
+    margin: 60px 0;
     /* margin-bottom: 40px; */
     position: relative; /* Ensure correct positioning for animations */
 }

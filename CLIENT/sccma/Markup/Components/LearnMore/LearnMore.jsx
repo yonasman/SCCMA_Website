@@ -8,8 +8,8 @@ function LearnMore() {
                         {/* left video container */}
                         <div className={styles.left_video_wrapper}>
                                 <iframe 
-                                    width="350" 
-                                    height="220" 
+                                    width="100%" 
+                                    height="100%" 
                                     src="https://www.youtube.com/embed/hw_V3WpHUwo" 
                                     frameBorder="0" 
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -20,8 +20,8 @@ function LearnMore() {
                         {/* right video container */}
                         <div className={styles.left_video_wrapper}>
                                 <iframe 
-                                    width="350" 
-                                    height="220" 
+                                    width="100%" 
+                                    height="100%" 
                                     src="https://www.youtube.com/embed/hw_V3WpHUwo" 
                                     frameBorder="0" 
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
