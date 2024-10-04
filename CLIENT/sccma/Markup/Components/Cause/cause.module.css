@@ -72,11 +72,12 @@
     .cause_container {
         display: flex;
         justify-content: space-between;
+       
     }
     .featured_card_container {
         width: 40%;
         margin: 0;
-        margin-right: 90px;
+        margin-right: 36px;
     }
     .cause_container .right_container h2::after {
         content: ''; 
@@ -85,7 +86,7 @@
         height: 0.3px; 
         background-color: rgb(150, 201, 242); 
         position: absolute; 
-        left: 59%;
+        left: 64.1%;
         margin-top: 12px;
     }
     .cause_container .left_container h2::after  {
@@ -110,9 +111,9 @@
         margin-right: 30px;
     }
     .featured_card {
-        background-color: #ECECEC !important;
+        background-color: #f0f0f0 !important;
         width: 300px !important ;
         height: 320px !important;
-        box-shadow: 0px 0px 5px 2.5px rgba(192, 190, 190, 0.31) !important;
+        box-shadow: 0px 0px 5px 2.5px rgba(197, 197, 197, 0.31) !important;
     }
 }

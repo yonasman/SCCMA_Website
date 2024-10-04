@@ -2,14 +2,14 @@
     width: 100%;
     overflow: hidden; 
     white-space: nowrap; 
-    margin: 40px 0;
+    margin: 50px 0;
+    /* margin-bottom: 40px; */
     position: relative; /* Ensure correct positioning for animations */
 }
 
 .cards_wrapper {
     display: flex;
     animation: scroll 30s linear infinite; /* Adjust duration for smoother scrolling */
-    /* Calculate the width based on the number of images */
     width: 100%; /* Ensure it fills the container */
 }
 

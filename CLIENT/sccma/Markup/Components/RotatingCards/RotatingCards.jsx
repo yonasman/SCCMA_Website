@@ -38,12 +38,6 @@ function RotatingCards() {
                                 <img src={image.image} alt="rotating images" />
                         </div>
                     ))}
-                    {/* duplicate card */}
-                    {/* {images.map((image) => (
-                        <div key={image.id} className={styles.rotating_cards}>
-                                <img key={image.id} src={image.image} alt="rotating images" />
-                        </div>
-                    ))} */}
                 </div>
             </div>
         </>
