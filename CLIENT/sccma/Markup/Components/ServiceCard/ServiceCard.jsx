@@ -3,10 +3,10 @@ import {Link} from "react-router-dom"
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 
-function ServiceCard({image, title, description,link,altText}) {
+function ServiceCard({className,image, title, description,link,altText}) {
   return (
     <>
-        <div className={styles.card_container}>
+        <div className={`${styles.card_container} ${className}`}>
             <div className={styles.img_container}>
                 <img src={image} alt={altText} />
             </div>
