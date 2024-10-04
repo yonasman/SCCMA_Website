@@ -36,6 +36,10 @@
     margin: 20px auto;
     
 }
+.donate_btn:hover {
+    background-color: #ffffff;
+    outline: 2px solid #ff5900;
+}
 @media (min-width:768px) {
     .justification_text_container {
         padding-top: 240px;
