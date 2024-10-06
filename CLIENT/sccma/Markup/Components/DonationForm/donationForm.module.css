@@ -1,0 +1,104 @@
+.donationForm_container {
+    color: #000;
+    margin: 25px auto;
+    width: 80%;
+    background-color: #fff;
+}
+.donationForm_container{
+    text-align: center;
+}
+.donationForm_container h2{
+    padding-bottom: 10px;
+}
+.donationForm_container label {
+    display: block;
+    padding: 8px 0;
+    text-align: start;
+    
+}
+.userInfo_wrapper input, .address_wrapper input{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    width: 233px;
+    height: 28px;
+    border: 1px solid #b7b6b6;
+    box-shadow: 0 0 5px 0px #0000002e;
+}
+.userInfo_wrapper input:focus, .address_wrapper input:focus {
+    outline: 1px solid #ff7f1d;
+    border: none;
+}
+.amount_wrapper p, .payment_wrapper p{
+    text-align: start;
+    padding: 15px 0;
+    font-weight: 510;
+}
+.payment_wrapper, .amount_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.payment_wrapper div label,.amount_wrapper div label{
+    display: inline;
+    padding-left: 6px;
+}
+
+.payment_wrapper div .top_radios, .amount_wrapper div .top_radios{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.payment_wrapper .bottom_radios {
+    display: flex;
+    margin: 20px 0;
+}
+.amount_wrapper div .bottom_radios {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.donate_btn {
+    background-color: #ff5900;
+    border: none;
+    display: block;
+    height: 30px;
+    width: 130px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding-top: 6px;
+    margin: 20px auto;
+    
+}
+.donate_btn:hover {
+    background-color: #ffffff;
+    outline: 2px solid #ff5900;
+}
+
+@media (min-width:768px) {
+    .donationForm_container {
+        margin: 25px auto;
+        width: 65%;
+    }
+    .userInfo_wrapper {
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .userInfo_wrapper label {
+        display: block;
+    }
+    .userInfo_wrapper input{
+        width: 30vw;
+    }
+    .address_wrapper input {
+        width: 100%;
+        
+    }
+    /* .amount_wrapper div .bottom_radios div:nth-child(1) {
+        padding-left: 30px;
+    } */
+    
+}
