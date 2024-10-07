@@ -22,7 +22,7 @@
     width: 233px;
     height: 28px;
     border: 1px solid #b7b6b6;
-    box-shadow: 0 0 5px 0px #0000002e;
+    box-shadow: 0 0 5px 0px #0000000f;
 }
 .userInfo_wrapper input:focus, .address_wrapper input:focus {
     outline: 1px solid #ff7f1d;
