@@ -5,6 +5,7 @@
 .founder_img_wrapper {
     height: 250px;
     width: 250px;
+    margin: 0 auto;
     margin-bottom: 40px;
     padding-bottom: 15px;
 }  
@@ -29,7 +30,9 @@
 }
 @media (min-width:768px) {
     .founder_img_wrapper {
-        margin: 0 auto;
         margin-bottom: 40px;
+    }
+    .founder_img_wrapper p {
+        font-size: 22px;
     }
 }

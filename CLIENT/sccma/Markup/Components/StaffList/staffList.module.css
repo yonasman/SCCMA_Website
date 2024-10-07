@@ -1,0 +1,53 @@
+.staffList_container {
+    background: linear-gradient(to bottom, #4BB8F5, #5E70BF);
+    height: 1030px;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 30px;
+    margin-top: 24px;
+}
+.staffList_container h1 {
+    color: #fff;
+}
+.staffList_container h1::after {
+    content: '';
+    width: 71%;
+    height: 0.09px;
+    background-color: #cdc6c6;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+.staffList_wrapper div {
+    width: 70%;
+    height: 280px;
+    margin: 30px auto;
+    box-shadow: 0 0 5px 1px #edebeb84 ;
+
+}
+.staffList_container, .staffList_wrapper div img{
+    width: 100%;
+}
+@media (min-width:768px) {
+    .staffList_container {
+        height: 445px;
+    }
+    .staffList_wrapper {
+        display: flex;
+        margin-top: 13px;
+    }
+    .staffList_wrapper div {
+        width: 19%;
+        height: 300px;
+    }
+    .staffList_wrapper div p{
+        text-align: start;
+        padding-left: 7px;
+    }
+    .staffList_container, .staffList_wrapper div img {
+        width: 100%;
+    }
+    .staffList_container h1::after {
+        width: 86%;
+        height: 0.07px;
+    }
+}
