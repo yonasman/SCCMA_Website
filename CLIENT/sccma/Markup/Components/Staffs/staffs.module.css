@@ -1,7 +1,7 @@
 .staff_container {
     height: 270px;
     background: linear-gradient(to bottom, #4BB8F5,#6C3895);
-    margin-bottom: 400px;
+    margin-bottom: 110px;
 }
 .staff_image_container {
     width: 100%;
@@ -22,11 +22,10 @@
 @media (min-width:768px) {
     .staff_container {
         height: 450px;
-        
+        margin-bottom: 370px;
     }
     .staff_image_container {
         height: 400px;
-        /* overflow: hidden; */
         margin: 0 auto;
         margin-top: 10px;
         width: 90%;
@@ -35,7 +34,7 @@
       object-fit: contain;
     }
     .staff_container h2 {
-        font-size: 30px;
+        font-size: 27px;
         padding-bottom: 30px;
     }
 }
