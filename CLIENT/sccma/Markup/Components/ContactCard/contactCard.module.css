@@ -1,0 +1,30 @@
+.contactCard_container {
+    background: linear-gradient(to bottom, #4BB8F5,#6C3895);
+    width: 210px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 30px auto;
+    box-shadow: 0 0 5px 1px #00000040;
+    border-radius: 10px;
+}
+.cardContent_container div {
+    margin: 0 auto;
+    width: 25px;
+}
+.cardContent_container div svg {
+    font-size: 30px;
+}
+.cardContent_container .contactText_container {
+    text-align: center;
+    width: 200px;
+}
+.contactText_container p {
+    padding: 3px 0;
+}
+.contactText_container p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
