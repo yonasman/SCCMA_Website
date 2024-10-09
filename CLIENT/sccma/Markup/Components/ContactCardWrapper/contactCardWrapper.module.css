@@ -11,7 +11,7 @@
     width: 77%;
     height: 1px;
     background-color: #e2e2e2;
-    margin: 5px auto 0;
+    margin: 4px auto 0;
 }
 
 @media (min-width:768px) {
@@ -21,7 +21,7 @@
     }
     .contactCards_container {
         display: flex;
-        width: 98%;
+        width: 86%;
         margin: 0 auto;
     }
 }
