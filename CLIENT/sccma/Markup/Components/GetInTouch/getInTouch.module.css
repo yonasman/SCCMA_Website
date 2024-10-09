@@ -1,0 +1,24 @@
+.getInTech_container {
+    background: url('../../../src/assets/images/bg2.jpg') left center;
+    background-size: cover;
+    height: 270px;
+    color: #000000;
+    text-align: center;
+    padding-top: 45px;
+}
+.getInTech_container p {
+    width: 90%;
+    margin: 10px auto;
+    color: #fff;
+}
+@media (min-width:768px) {
+    .getInTech_container {
+        height: 390px;
+        padding-top: 120px;
+        
+    }
+    .getInTech_container p {
+        color: #000;
+        font-size: 18px;
+    }
+}

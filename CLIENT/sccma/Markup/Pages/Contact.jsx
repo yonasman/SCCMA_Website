@@ -1,8 +1,10 @@
+import GetInTech from "../Components/GetInTouch/GetInTech"
+
 function Contact() {
   return (
-    <div>
-      <h1>Contact us</h1>
-    </div>
+    <>
+      <GetInTech/>
+    </>
   )
 }
 
