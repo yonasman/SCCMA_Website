@@ -1,4 +1,5 @@
 import AboutUsTop from "../Components/AboutUsTop/AboutUsTop"
+import MissionWrapper from "../Components/MissionWrapper/MissionWrapper"
 import Story from "../Components/Story/Story"
 
 function About() {
@@ -6,6 +7,7 @@ function About() {
     <>
         <AboutUsTop/>
         <Story/>
+        <MissionWrapper/>
     </>
   )
 }

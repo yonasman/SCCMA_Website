@@ -1,7 +1,7 @@
 .story_container {
     color: #000;
     margin: 15px auto;
-    width: 85%;
+    width: 83%;
     padding-top: 6px;
 }
 .aboutStory_container {
@@ -24,11 +24,12 @@
 @media (min-width:768px) {
     .story_container {
         display: flex;
-        width: 83%;
+        width: 84.5%;
         padding-top: 35px;
     }
     .aboutStory_container {
         height: 75vh;
+        width: 80%;
     }
     .aboutStory_container h2 {
         font-size: 30px;
@@ -42,7 +43,7 @@
         width: 100%;
     }
     .storyText_container {
-        padding-left: 200px;
+        padding-left: 205px;
     }
     .aboutStory_container {
         margin-top: 0;

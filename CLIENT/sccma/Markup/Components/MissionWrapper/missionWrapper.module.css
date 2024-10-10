@@ -1,0 +1,23 @@
+.mission_container {
+    color: #000;
+}
+.mission_container h1 {
+    padding: 10px 0;
+    text-align: center;
+}
+.mission_container h1::after {
+    content: '';
+    display: block;
+    width: 85%;
+    height: 0.5px;
+    margin: 5px auto;
+    background-color: #dddcdc;
+}
+@media (min-width:768px) {
+    .missionCard_container {
+
+        display: flex;
+        width: 92%;
+        margin: 20px auto;
+    }
+}
