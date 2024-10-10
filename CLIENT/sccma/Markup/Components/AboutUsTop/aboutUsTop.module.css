@@ -1,0 +1,113 @@
+.aboutUsTop_container {
+    width: 100%;
+    height: 340px;
+    background: linear-gradient(to bottom, #4BB8F5,#6C3895);
+    margin-bottom: 20px;
+    color: #f0f0f0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.donate_btn a{
+        background-color: #ff6214;
+        border: none;
+        height: 40px;
+        width: 100%;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        padding: 7px 29px;
+}
+.donate_btn a:hover {
+    background-color: #fff;
+    outline: 1px solid #ff5500;
+    border: none;
+}
+.aboutUsTop_container p {
+    padding: 20px 7px;
+}
+.img_container {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .aboutUsTop_container {
+        height: 500px;
+        border-radius: 0 0 80% 0%; 
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+        align-items: center;
+        box-shadow: 0 0 5px 1px #00000043;
+        margin-bottom: 50px;
+    }
+    .aboutUsTop_container h2 {
+        font-size: 35px;
+    }
+    .aboutText_container {
+        width: 55%;
+        padding-left: 6.8rem;
+        height: 70%;
+    }
+    .aboutText_container p {
+        padding-left: 0;
+        font-size: 17px;
+    }
+    .img_container {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        position: relative;
+    }
+    .img_container img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 0 5px 1px #00000040;
+    }
+    .circle_one {
+        height: 90px;
+        width: 90px;
+        background-color: #000;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        right: 15%;
+    }
+    .circle_two {
+        height: 40px;
+        width: 40px;
+        background-color: #000;
+        border-radius: 50%;
+        position: absolute;
+        top: 6%;
+        right: 77%;
+    }
+    .circle_three {
+        height: 65px;
+        width: 65px;
+        background-color: #000;
+        border-radius: 50%;
+        position: absolute;
+        top: 60%;
+        right: 83%;
+    }
+    .circle_four {
+        height: 55px;
+        width: 55px;
+        background-color: #000;
+        border-radius: 50%;
+        position: absolute;
+        top: 70%;
+        right: 15%;
+    }
+    .donate_btn {
+        padding-top: 10px;
+    }
+    
+}

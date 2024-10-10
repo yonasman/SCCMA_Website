@@ -1,8 +1,10 @@
+import AboutUsTop from "../Components/AboutUsTop/AboutUsTop"
+
 function About() {
   return (
-    <div>
-      <h1>About us Page</h1>
-    </div>
+    <>
+        <AboutUsTop/>
+    </>
   )
 }
 
