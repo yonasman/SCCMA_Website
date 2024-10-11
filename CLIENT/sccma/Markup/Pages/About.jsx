@@ -3,6 +3,7 @@ import GoalWrapper from "../Components/GoalWrapper/GoalWrapper"
 import MissionWrapper from "../Components/MissionWrapper/MissionWrapper"
 import Story from "../Components/Story/Story"
 import TeamCardWrapper from "../Components/TeamCardWrapper/TeamCardWrapper"
+import Volunteer from '../Components/Volunteer/Volunteer'
 
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
         <MissionWrapper/>
         <GoalWrapper/>
         <TeamCardWrapper/>
+        <Volunteer/>
     </>
   )
 }
