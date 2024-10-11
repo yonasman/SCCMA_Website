@@ -1,0 +1,24 @@
+.goal_container {
+    height: 200px;
+    width: 87%;
+    border: 2px solid #0a6ebf95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    box-shadow: inset 0  0 5px 3px #0670c673 ;
+
+}
+.goal_container h2 {
+    text-align: center;
+}
+.goal_container p {
+    text-align: center;
+    padding-top: 5px;
+}
+@media (min-width:768px) {
+    .goal_container {
+        width: 250px;
+        height: 240px;
+    }
+}

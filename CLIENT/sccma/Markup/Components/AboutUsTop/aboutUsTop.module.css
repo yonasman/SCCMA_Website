@@ -71,13 +71,13 @@
         box-shadow: 0 0 5px 1px #00000040;
     }
     .circle_one {
-        height: 90px;
-        width: 90px;
+        height: 100px;
+        width: 100px;
         background-color: #000;
         border-radius: 50%;
         position: absolute;
         top: 0;
-        right: 15%;
+        right: 16%;
     }
     .circle_two {
         height: 40px;
@@ -104,7 +104,7 @@
         border-radius: 50%;
         position: absolute;
         top: 70%;
-        right: 15%;
+        right: 16%;
     }
     .donate_btn {
         padding-top: 10px;
