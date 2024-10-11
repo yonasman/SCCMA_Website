@@ -2,6 +2,7 @@ import AboutUsTop from "../Components/AboutUsTop/AboutUsTop"
 import GoalWrapper from "../Components/GoalWrapper/GoalWrapper"
 import MissionWrapper from "../Components/MissionWrapper/MissionWrapper"
 import Story from "../Components/Story/Story"
+import TeamCardWrapper from "../Components/TeamCardWrapper/TeamCardWrapper"
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
         <Story/>
         <MissionWrapper/>
         <GoalWrapper/>
+        <TeamCardWrapper/>
     </>
   )
 }

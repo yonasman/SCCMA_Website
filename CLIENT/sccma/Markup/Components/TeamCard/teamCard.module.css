@@ -1,0 +1,38 @@
+.teamCard_container  {
+    width: 73%;
+    margin: 20px auto;
+}
+.teamCard_container h2{
+    text-align: center;
+}
+.teamImg_container {
+    width: 220px;
+    height: 280px;
+    padding-bottom: 10px;
+}
+.teamImg_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.teamCard_container p {
+    padding: 2px 0;
+}
+.socialMediaLinks_container {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    padding: 5px 0;
+}
+.socialMediaLinks_container svg {
+    cursor: pointer;
+}
+.socialMediaLinks_container svg:hover {
+    color: #000;
+}
+@media (min-width:768px) {
+    .teamCard_container p {
+        font-size: 17px;
+    }
+}
