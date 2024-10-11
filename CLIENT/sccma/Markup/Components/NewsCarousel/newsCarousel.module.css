@@ -1,0 +1,32 @@
+.newsCarousel_container {
+    margin-bottom: 70px;
+}
+
+.legend {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 10px 0;
+    font-size: 12px;
+    position: absolute;
+    bottom: 60px;
+    width: 80%;
+    left: 30px;
+    text-align: center;
+    border-radius: 5px;
+  }
+@media (min-width:768px) {
+    .newsCarousel_container div img{
+        height: 89vh;
+        object-fit: cover;
+    }
+    .legend {
+        width: 70%;
+        left: 200px;
+        bottom: 180px;
+        height: 200px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

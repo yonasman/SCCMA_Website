@@ -10,13 +10,17 @@
     height: 0.5px;
     margin: 10px auto;
     margin-top: 5px;
-    background-color: #dedede;
+    background-color: #f1efef;
 }
 @media (min-width:768px) {
-    .news_container {
-        width: 92%;
-        display: flex;
+    .newsWrapper_container {
         margin: 0 auto;
-        margin-left: 80px;
+        width: 92%; 
+    }
+    .news_container {
+        width: 100%;
+        display: flex;
+        margin-left: 53px;
+        justify-content: space-between; 
     }
 }

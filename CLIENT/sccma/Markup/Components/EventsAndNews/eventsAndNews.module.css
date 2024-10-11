@@ -37,11 +37,13 @@
 @media (min-width:768px) {
     .eventAndNews_container{
         text-align: start;
+        width: 360px;
+        /* height: 200px; */
     }
     .eventAndNews_container p {
         font-size: 14px;
         padding: 5px 0;
-        width: 80%;
+        width: 70%;
     }
     .img_container {
         margin: 0 ;
