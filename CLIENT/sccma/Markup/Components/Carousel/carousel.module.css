@@ -40,7 +40,7 @@
     font-size: 11px;
     width: 90vw;
     text-align: center;
-    background: linear-gradient(to right,#003050 , #4a98f9);
+    background: linear-gradient(to right,#ff2e7a , #4a98f9);
     background-clip: text;
     color: transparent;
 }
@@ -52,27 +52,28 @@
     overflow: hidden;
 }
 .carousel_item img {
-    height: 475px;
+    height: 510px;
 }
 /* carousel text styles */
 .welcome_text {
     top: 110px;
     left: 65px;
-    font-size: 18px;
+    font-size: 22px;
     width: 51vw;
 }
 .sccma_description {
     position: absolute;
     top: 230px;
-    left: 72px;
+    left: 80px;
     background-color: #000000a5;
     color: #ece9e9;
-    width: 545px;
-    height: 130px;
+    width: 673px;
+    height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
     display: block;
+    font-size: 19px;
 }
 .sccma_description p {
     padding: 34px;

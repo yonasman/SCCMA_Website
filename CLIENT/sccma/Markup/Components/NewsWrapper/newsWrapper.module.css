@@ -6,7 +6,7 @@
 .newsWrapper_container h1::after {
     content: '';
     display: block;
-    width: 85%;
+    width: 91%;
     height: 0.5px;
     margin: 10px auto;
     margin-top: 5px;
@@ -15,6 +15,7 @@
 @media (min-width:768px) {
     .newsWrapper_container {
         margin: 0 auto;
+        margin-bottom: 20px;
         width: 92%; 
     }
     .news_container {

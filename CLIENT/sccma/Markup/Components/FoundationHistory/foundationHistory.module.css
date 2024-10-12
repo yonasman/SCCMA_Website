@@ -15,25 +15,27 @@
 }
 @media (min-width:768px) {
     .foundation_container {
-        padding: 80px;
-        margin-top: 30px;
+        padding: 0;
+        margin-top: 0;
+        margin-top: -40px;
+        margin-bottom: 30px;
         display: flex;
         background: linear-gradient(to right, #42b4f6, #6C3895 );
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         height: 65vh;
     }
     .foundation_text {
-        width: 50vw;
+        width: 53vw;
     }
     .foundation_container .sara_img img{
-        width: 190px;
+        width: 210px;
     }
     .foundation_text p {
-        font-size: 15px;
+        font-size: 17px;
     }
     .foundation_text h3 {
         color: #f4ecec;
-        font-size: 24px;
+        font-size: 33px;
     }
 }

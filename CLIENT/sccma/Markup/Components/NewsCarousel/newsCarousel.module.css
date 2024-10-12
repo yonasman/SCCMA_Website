@@ -1,5 +1,5 @@
 .newsCarousel_container {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .legend {
@@ -15,6 +15,9 @@
     border-radius: 5px;
   }
 @media (min-width:768px) {
+    .newsCarousel_container {
+        margin-bottom: 50px;
+    }
     .newsCarousel_container div img{
         height: 89vh;
         object-fit: cover;

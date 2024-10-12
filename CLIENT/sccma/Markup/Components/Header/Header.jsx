@@ -59,7 +59,7 @@ function Header() {
                     <Link to='/about'><li>About Us</li></Link>
                     <Link to='/news'><li>News</li></Link>
                     <Link to='/contact'><li>Contact Us</li></Link>
-                    <Link to='/staffs'>Staffs</Link>
+                    <Link to='/staffs'><li>Staffs</li></Link>
                 </ul>
             </div>
             <Link  className={styles.nav_btn} to='/donate'>Donate</Link>

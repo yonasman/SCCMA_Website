@@ -37,11 +37,11 @@ function Footer() {
         <div className={styles.footer_links_container}>
             {/* footer links */}
             <div className={styles.links_container}>
-                    <a href="https://www.facebook.com/share/tbdNwbG2ncPgQSWf/?mibextid=qi2Omg"><FacebookIcon/></a>
-                    <a href="https://www.instagram.com/sccma_04?igsh=MWt0anZlZDYwMWxqZQ=="><InstagramIcon/></a>
-                    <a href="https://www.linkedin.com/company/sara-cannizzaro-child-minders-association/"><LinkedInIcon/></a>
-                    <a href="https://t.me/saracenter1"><TelegramIcon/></a>
-                    <a href="https://x.com/sccma04?t=lo1O0j3m5QKNtqTX88IjPg&s=09"><TwitterIcon/></a>
+                    <a target='_blank' href="https://www.facebook.com/share/tbdNwbG2ncPgQSWf/?mibextid=qi2Omg"><FacebookIcon/></a>
+                    <a target='_blank' href="https://www.instagram.com/sccma_04?igsh=MWt0anZlZDYwMWxqZQ=="><InstagramIcon/></a>
+                    <a target='_blank' href="https://www.linkedin.com/company/sara-cannizzaro-child-minders-association/"><LinkedInIcon/></a>
+                    <a target='_blank' href="https://t.me/saracenter1"><TelegramIcon/></a>
+                    <a target='_blank' href="https://x.com/sccma04?t=lo1O0j3m5QKNtqTX88IjPg&s=09"><TwitterIcon/></a>
             </div>
             <div className={styles.search_bar}>
                 {/* search bar */}
