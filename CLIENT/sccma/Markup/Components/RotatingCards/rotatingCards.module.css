@@ -3,20 +3,19 @@
     overflow: hidden; 
     white-space: nowrap; 
     margin: 60px 0;
-    /* margin-bottom: 40px; */
-    position: relative; /* Ensure correct positioning for animations */
+    position: relative;
 }
 
 .cards_wrapper {
     display: flex;
-    animation: scroll 30s linear infinite; /* Adjust duration for smoother scrolling */
-    width: 100%; /* Ensure it fills the container */
+    animation: scroll 30s linear infinite; 
+    width: 100%; 
 }
 
 .rotating_cards {
     flex: 0 0 auto; 
     width: 200px; 
-    height: 180px; 
+    height: 260px; 
     margin-right: 30px; 
 }
 
@@ -34,5 +33,11 @@
     }
     100% {
         transform: translateX(-100%); /* Move full width of the wrapper */
+    }
+}
+@media (min-width: 768px) {
+    .cards_container {
+        margin: 80px 0;
+        margin-bottom: 70px;
     }
 }
