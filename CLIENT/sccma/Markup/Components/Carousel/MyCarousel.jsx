@@ -1,9 +1,19 @@
 import styles from './carousel.module.css';
-import images from '../../../src/data/data'; 
+import image1 from  '../../../src/assets/images/header-bg-1.jpg' ;
+import image2 from   '../../../src/assets/images/bg2.jpg' ;
+import image3 from  '../../../src/assets/images/sara-job.jpg'  ;
+import image4 from  '../../../src/assets/images/featured_cause_1.jpg';
+import image5 from  '../../../src/assets/images/event1.jpg' ;
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
 
 const MyCarousel = () => {
+    const images = [
+        { id: 1, image: image1},
+        { id: 2, image: image2},
+        { id: 3, image: image3},
+        { id: 4, image: image4 },
+        { id: 5, image: image5 }]
     return (
         <div className={styles.carousel_container}>
             <Carousel
