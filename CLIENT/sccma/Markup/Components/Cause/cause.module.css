@@ -4,6 +4,12 @@
     background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
     padding-bottom: 15px;
 }
+.cause_container .left_container {
+    order: 2;
+}
+.cause_container .right_container {
+    order: 1;
+}
 .cause_container .left_container h2 {
     text-align: center;
     margin: 30px 0;
@@ -14,10 +20,10 @@
     content: ''; 
     display: block; 
     width: 75%; 
-    height: 0.3px; 
+    height: 0.09px; 
     background-color: rgb(150, 201, 242); 
     position: absolute; 
-    left: 12%;
+    left: 10%;
     margin-top: 12px;
 }
 .cause_container .right_container h2::after {
@@ -32,6 +38,7 @@
 }
 .card_container {
     margin: 0 auto;
+    
 }
 .right_container h2{
     text-align: center;
@@ -46,15 +53,14 @@
     background-color: #ff5900;
     border: none;
     display: block;
-    height: 30px;
-    width: 130px;
+    height: 34px;
+    width: 120px;
     font-weight: bold;
-    border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
     color: black;
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 8px;
     margin: 20px auto;
     margin-top: 34px;
     
@@ -72,26 +78,35 @@
     .cause_container {
         display: flex;
         justify-content: space-between;
-       
+    }
+    .cause_container .left_container {
+        order: 1;
+    }
+    .cause_container .right_container {
+        order: 2;
+    }
+    .card_container {
+        padding-left: 18px;
     }
     .featured_card_container {
         width: 40%;
         margin: 0;
-        margin-right: 36px;
+        margin-right: 60px;
     }
+
     .cause_container .right_container h2::after {
         content: ''; 
         display: block; 
-        width: 28%; 
+        width: 12.6%; 
         height: 0.3px; 
         background-color: rgb(150, 201, 242); 
         position: absolute; 
-        left: 64.1%;
+        left: 69.5%;
         margin-top: 12px;
     }
     .cause_container .left_container h2::after  {
-        width: 70%;
-        left: 15%;
+        width: 49%;
+        left: 17.4%;
     }
     .right_container {
         margin-right: 50px;
@@ -102,10 +117,10 @@
     }
     .cause_container .left_container h2 {
         text-align: start;
-        padding-left: 86px;
+        padding-left: 105px;
     }
     .donate_btn {
-        padding-top: 5px;
+        padding-top: 7px;
         padding-left: 17px;
         border: 1.9px solid #ff5900;
         margin-right: 30px;

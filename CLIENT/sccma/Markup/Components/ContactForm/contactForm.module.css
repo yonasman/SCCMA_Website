@@ -51,14 +51,15 @@
     
 }
 .form_container .submit_btn input{
-        width: 150px;
-        height: 30px;
-        background-color: #ff5500;
+        width: 95px;
+        height: 29px;
+        background-color: #ff7a38;
         border: none;
         font-size: 16px;
         font-weight: bold;
         cursor: pointer;
-        
+        font-size: 17px;
+        padding-right: 6px;
 }     
 .form_container .submit_btn input:hover {
     background-color: #fff;
@@ -67,7 +68,11 @@
 @media (min-width:768px) {
 
     .form_container input {
-        height: 27px;
+        height: 34px;
+    }
+    .form_container .submit_btn input {
+        width: 110px;
+        height: 38px;
     }
     .name_container {
         display: flex;

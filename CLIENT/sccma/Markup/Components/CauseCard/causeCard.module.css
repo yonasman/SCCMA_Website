@@ -73,11 +73,11 @@
     .causeCard_container::after{
         content: ''; 
         display: block; 
-        width: 38%; 
+        width: 30.5%; 
         height: 0.3px; 
         background-color: rgb(148, 181, 207); 
         position: absolute; 
-        left: 8%;
+        left: 7.8%;
         margin-top: 220px;
     }
     .causeCard_container img {
