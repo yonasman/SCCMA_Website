@@ -4,6 +4,7 @@ import styles from "./Header.module.css"
 import MenuIcon from '@mui/icons-material/Menu';
 import { HomeOutlined as HomeIcon, InfoOutlined as InfoIcon, NewspaperOutlined as NewsIcon, MailOutline as ContactIcon  } from '@mui/icons-material';
 import CloseIcon from '@mui/icons-material/Close';
+import GroupIcon from '@mui/icons-material/Group';
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -50,7 +51,7 @@ function Header() {
                     <Link to="/about"><li><InfoIcon fontSize="small"/>About Us</li></Link>
                     <Link to="/news"><li><NewsIcon fontSize="small"/>News</li></Link>
                     <Link to="/contact"><li><ContactIcon fontSize="small"/>Contact Us</li></Link>
-                    <Link to="/staffs"><li><NewsIcon fontSize="small"/>Staffs</li></Link>
+                    <Link to="/staffs"><li><GroupIcon fontSize="small"/>Staffs</li></Link>
                 </ul>
             </div>
             {/* desktop navigation */}
