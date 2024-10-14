@@ -50,10 +50,10 @@
 }
 
 .donate_btn {
-    background-color: #ff5900;
+    background-color: #ff7a38;
     border: none;
     display: block;
-    height: 34px;
+    height: 36px;
     width: 120px;
     font-weight: bold;
     cursor: pointer;
@@ -121,8 +121,8 @@
     }
     .donate_btn {
         padding-top: 7px;
-        padding-left: 17px;
-        border: 1.9px solid #ff5900;
+        padding-left: 15px;
+        border: 1.9px solid #ff7a38;
         margin-right: 30px;
     }
     .featured_card {

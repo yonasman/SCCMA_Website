@@ -39,7 +39,7 @@ function Header() {
         <>
           <div className={`${styles.nav_container} ${isScrolled ? styles.scrolled : ''}`}>
             <div className={styles.logo_wrapper}>
-                <img className={styles.logo} src={logo} alt="sccma logo" />
+                <Link to='/'><img className={styles.logo} src={logo} alt="sccma logo" /></Link>
             </div>
             <div className={styles.hamburger_menu} onClick={handleMenu}>
                 {menuOpen ? <CloseIcon fontSize="large"/> : <MenuIcon fontSize="large"/>}
@@ -50,6 +50,7 @@ function Header() {
                     <Link to="/about"><li><InfoIcon fontSize="small"/>About Us</li></Link>
                     <Link to="/news"><li><NewsIcon fontSize="small"/>News</li></Link>
                     <Link to="/contact"><li><ContactIcon fontSize="small"/>Contact Us</li></Link>
+                    <Link to="/staffs"><li><NewsIcon fontSize="small"/>Staffs</li></Link>
                 </ul>
             </div>
             {/* desktop navigation */}
