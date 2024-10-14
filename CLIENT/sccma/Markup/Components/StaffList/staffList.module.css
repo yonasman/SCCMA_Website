@@ -11,9 +11,9 @@
 }
 .staffList_container h1::after {
     content: '';
-    width: 71%;
-    height: 0.09px;
-    background-color: #cdc6c6;
+    width: 72%;
+    height: 0.08px;
+    background-color: #d3c6c6;
     display: block;
     margin: 10px auto 0 auto;
 }
@@ -29,7 +29,7 @@
 }
 @media (min-width:768px) {
     .staffList_container {
-        height: 445px;
+        height: 510px;
     }
     .staffList_wrapper {
         display: flex;
@@ -37,7 +37,7 @@
     }
     .staffList_wrapper div {
         width: 19%;
-        height: 300px;
+        height: 340px;
     }
     .staffList_wrapper div p{
         text-align: start;
@@ -48,6 +48,6 @@
     }
     .staffList_container h1::after {
         width: 86%;
-        height: 0.07px;
+        height: 0.079px;
     }
 }
